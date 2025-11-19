@@ -4,12 +4,11 @@
 QSAR Modeling for Drug Activity Prediction (Cheminformatics Project)
 This repository contains the complete pipeline for developing a Quantitative Structure-Activity Relationship (QSAR) model. 
 The goal is to predict the biological activity class of novel chemical compounds using computational methods, thus simulating a core process in early-stage drug discovery.
-Project Goals:
+ Project Goals:
 Featurization: Convert complex chemical structures into machine-readable numerical data.
-Modeling: Train a robust classification
-algorithm to predict activity based on structure. 
+Modeling: Train a robust classification algorithm to predict activity based on structure. 
 Validation: Use industry-standard techniques to assess model reliability.
-Methodology and Pipeline:
+ Methodology and Pipeline:
 The project follows a standardized cheminformatics workflow, executed sequentially in the included Jupyter Notebook (Cheminformatics_Analysis.ipynb).
 1. Data Source and Preprocessing:
     Data: A sample dataset was used containing SMILES codes and experimental pIC50 values simulating activity against a biological target (e.g., Acetylcholinesterase - AChE).
@@ -22,6 +21,12 @@ The project follows a standardized cheminformatics workflow, executed sequential
      Validation Technique: Due to the limited sample size, 2-Fold Cross-Validation was employed to avoid overfitting and provide a reliable, generalized accuracy score.
      Key Results and Findings:
      Final Validation Metric: Average Cross-Validation Accuracy: 41.67%
-     Note: This score is expected for the small, illustrative dataset and confirms that the methodology is sound, even if the predictive power is low due to limited training data.Analytical Insight (Feature Importance): The model successfully identified specific Morgan Fingerprint bits (structural motifs) that were most influential in classifying a molecule as Active or Inactive.
+     Note: This score is expected for the small, illustrative dataset and confirms that the methodology is sound, even if the predictive power is low due to limited training data.Analytical Insight
+(Feature Importance): The model successfully identified specific Morgan Fingerprint bits (structural motifs) that were most influential in classifying a molecule as Active or Inactive.
 Technologies Used:
-Programming Language: PythonCheminformatics: RDKitData Analysis: Pandas & NumPyMachine Learning: scikit-learn (RandomForestClassifier, cross_val_score)Visualization: MatplotlibManagement: GitHub Projects (Kanban Board)
+Programming Language: Python
+Cheminformatics: RDKit
+Data Analysis: Pandas & NumPy
+Machine Learning: scikit-learn (RandomForestClassifier, cross_val_score)
+Visualization: Matplotlib
+Management: GitHub Projects (Kanban Board)
