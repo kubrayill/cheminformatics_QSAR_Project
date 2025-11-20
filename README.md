@@ -1,5 +1,4 @@
 # cheminformatics_QSAR_Project
-**[View the Full Executable Code (Jupyter Notebook) here.](Cheminformatics_Analysis.ipynb)**
 
 QSAR Modeling for Drug Activity Prediction (Cheminformatics Project)
 This repository contains the complete pipeline for developing a Quantitative Structure-Activity Relationship (QSAR) model. 
